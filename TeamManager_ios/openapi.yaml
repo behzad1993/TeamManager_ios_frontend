@@ -1,0 +1,121 @@
+openapi: 3.0.1
+info:
+  title: OpenAPI definition
+  version: v0
+servers:
+- url: http://localhost:8080/api
+  description: Generated server url
+paths:
+  /user/create:
+    post:
+      tags:
+      - member-controller
+      operationId: create
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Member'
+        required: true
+      responses:
+        "200":
+          description: OK
+  /user/patch/{id}:
+    patch:
+      tags:
+      - member-controller
+      operationId: patch
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: integer
+          format: int64
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties:
+                type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: string
+  /user/get/{id}:
+    get:
+      tags:
+      - member-controller
+      summary: Get a book by its id
+      operationId: get
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: integer
+          format: int64
+      responses:
+        "404":
+          description: TeamUser not found
+        "400":
+          description: Invalid id supplied
+        "200":
+          description: Found the TeamUser
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Member'
+  /user/remove/{id}:
+    delete:
+      tags:
+      - member-controller
+      operationId: remove
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: integer
+          format: int64
+      responses:
+        "200":
+          description: OK
+components:
+  schemas:
+    Member:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        surName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
+        phoneNr:
+          type: string
+        birthday:
+          type: string
+          format: date-time
+        teamSet:
+          uniqueItems: true
+          type: array
+          items:
+            $ref: '#/components/schemas/Team'
+    Team:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+

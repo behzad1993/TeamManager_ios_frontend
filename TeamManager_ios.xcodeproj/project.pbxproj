@@ -7,16 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17049A362BE116D0006C65F0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17049A352BE116D0006C65F0 /* ModelData.swift */; };
+		17049A402BE11797006C65F0 /* MemberDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17049A3F2BE11797006C65F0 /* MemberDetail.swift */; };
+		17049A442BE11CE7006C65F0 /* openapi.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 17049A432BE11CE7006C65F0 /* openapi.yaml */; };
+		17049A7F2BE12454006C65F0 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17049A7D2BE12454006C65F0 /* Team.swift */; };
+		17049A802BE12454006C65F0 /* Member3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17049A7E2BE12454006C65F0 /* Member3.swift */; };
+		17049A832BE1265B006C65F0 /* MemberRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17049A822BE1265B006C65F0 /* MemberRow.swift */; };
+		170BAD8D2BD4031D00A6FFE0 /* OpenAPIURLSession in Frameworks */ = {isa = PBXBuildFile; productRef = 170BAD8C2BD4031D00A6FFE0 /* OpenAPIURLSession */; };
+		172525072BD4068A005150AC /* openapi-generator-config.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 172525062BD4068A005150AC /* openapi-generator-config.yaml */; };
+		174AAEEE2BE3BE98003347C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174AAEED2BE3BE98003347C8 /* ContentView.swift */; };
+		174AAEFB2BE3E384003347C8 /* charleyrivers@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174AAEEF2BE3E384003347C8 /* charleyrivers@2x.jpg */; };
+		174AAEFC2BE3E384003347C8 /* chilkoottrail@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174AAEF02BE3E384003347C8 /* chilkoottrail@2x.jpg */; };
+		174AAEFD2BE3E384003347C8 /* chincoteague@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174AAEF12BE3E384003347C8 /* chincoteague@2x.jpg */; };
+		174AAEFE2BE3E384003347C8 /* hiddenlake@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174AAEF22BE3E384003347C8 /* hiddenlake@2x.jpg */; };
+		174AAEFF2BE3E384003347C8 /* icybay@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174AAEF32BE3E384003347C8 /* icybay@2x.jpg */; };
+		174AAF002BE3E384003347C8 /* lakemcdonald@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174AAEF42BE3E384003347C8 /* lakemcdonald@2x.jpg */; };
+		174AAF012BE3E384003347C8 /* rainbowlake@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174AAEF52BE3E384003347C8 /* rainbowlake@2x.jpg */; };
+		174AAF022BE3E384003347C8 /* silversalmoncreek@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174AAEF62BE3E384003347C8 /* silversalmoncreek@2x.jpg */; };
+		174AAF032BE3E384003347C8 /* stmarylake@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174AAEF72BE3E384003347C8 /* stmarylake@2x.jpg */; };
+		174AAF042BE3E384003347C8 /* twinlake@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174AAEF82BE3E384003347C8 /* twinlake@2x.jpg */; };
+		174AAF052BE3E384003347C8 /* umbagog@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174AAEF92BE3E384003347C8 /* umbagog@2x.jpg */; };
+		174AAF072BE3E623003347C8 /* MemberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174AAF062BE3E623003347C8 /* MemberList.swift */; };
+		174AAF092BE3FB3D003347C8 /* CircleImageMemberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174AAF082BE3FB3D003347C8 /* CircleImageMemberList.swift */; };
+		175F3D382BD9B51800F95BB5 /* MEMBER_TEAM.json in Resources */ = {isa = PBXBuildFile; fileRef = 175F3D362BD9B51700F95BB5 /* MEMBER_TEAM.json */; };
+		175F3D392BD9B51800F95BB5 /* member.json in Resources */ = {isa = PBXBuildFile; fileRef = 175F3D372BD9B51800F95BB5 /* member.json */; };
+		175F3D3B2BD9B53C00F95BB5 /* TEAM.json in Resources */ = {isa = PBXBuildFile; fileRef = 175F3D3A2BD9B53B00F95BB5 /* TEAM.json */; };
+		17A6C4D32BE12A6000398342 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A6C4D22BE12A6000398342 /* Member.swift */; };
+		17BA63B42BE3FEFB001F4E32 /* CircleImageMemberDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA63B32BE3FEFB001F4E32 /* CircleImageMemberDetail.swift */; };
 		17F5A86E2BD09DAE00CD57FD /* TeamManager_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A86D2BD09DAE00CD57FD /* TeamManager_iosApp.swift */; };
-		17F5A8702BD09DAE00CD57FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A86F2BD09DAE00CD57FD /* ContentView.swift */; };
 		17F5A8722BD09DB000CD57FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F5A8712BD09DB000CD57FD /* Assets.xcassets */; };
 		17F5A8752BD09DB000CD57FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F5A8742BD09DB000CD57FD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17049A352BE116D0006C65F0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		17049A3F2BE11797006C65F0 /* MemberDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDetail.swift; sourceTree = "<group>"; };
+		17049A432BE11CE7006C65F0 /* openapi.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = openapi.yaml; sourceTree = "<group>"; };
+		17049A7D2BE12454006C65F0 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		17049A7E2BE12454006C65F0 /* Member3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Member3.swift; sourceTree = "<group>"; };
+		17049A822BE1265B006C65F0 /* MemberRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberRow.swift; sourceTree = "<group>"; };
+		172525062BD4068A005150AC /* openapi-generator-config.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "openapi-generator-config.yaml"; sourceTree = "<group>"; };
+		174AAEED2BE3BE98003347C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		174AAEEF2BE3E384003347C8 /* charleyrivers@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "charleyrivers@2x.jpg"; sourceTree = "<group>"; };
+		174AAEF02BE3E384003347C8 /* chilkoottrail@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chilkoottrail@2x.jpg"; sourceTree = "<group>"; };
+		174AAEF12BE3E384003347C8 /* chincoteague@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chincoteague@2x.jpg"; sourceTree = "<group>"; };
+		174AAEF22BE3E384003347C8 /* hiddenlake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hiddenlake@2x.jpg"; sourceTree = "<group>"; };
+		174AAEF32BE3E384003347C8 /* icybay@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "icybay@2x.jpg"; sourceTree = "<group>"; };
+		174AAEF42BE3E384003347C8 /* lakemcdonald@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lakemcdonald@2x.jpg"; sourceTree = "<group>"; };
+		174AAEF52BE3E384003347C8 /* rainbowlake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rainbowlake@2x.jpg"; sourceTree = "<group>"; };
+		174AAEF62BE3E384003347C8 /* silversalmoncreek@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silversalmoncreek@2x.jpg"; sourceTree = "<group>"; };
+		174AAEF72BE3E384003347C8 /* stmarylake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stmarylake@2x.jpg"; sourceTree = "<group>"; };
+		174AAEF82BE3E384003347C8 /* twinlake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twinlake@2x.jpg"; sourceTree = "<group>"; };
+		174AAEF92BE3E384003347C8 /* umbagog@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "umbagog@2x.jpg"; sourceTree = "<group>"; };
+		174AAF062BE3E623003347C8 /* MemberList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberList.swift; sourceTree = "<group>"; };
+		174AAF082BE3FB3D003347C8 /* CircleImageMemberList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageMemberList.swift; sourceTree = "<group>"; };
+		175F3D362BD9B51700F95BB5 /* MEMBER_TEAM.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MEMBER_TEAM.json; sourceTree = "<group>"; };
+		175F3D372BD9B51800F95BB5 /* member.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = member.json; sourceTree = "<group>"; };
+		175F3D3A2BD9B53B00F95BB5 /* TEAM.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TEAM.json; sourceTree = "<group>"; };
+		17A6C4D22BE12A6000398342 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		17BA63B32BE3FEFB001F4E32 /* CircleImageMemberDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageMemberDetail.swift; sourceTree = "<group>"; };
 		17F5A86A2BD09DAE00CD57FD /* TeamManager_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamManager_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F5A86D2BD09DAE00CD57FD /* TeamManager_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamManager_iosApp.swift; sourceTree = "<group>"; };
-		17F5A86F2BD09DAE00CD57FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17F5A8712BD09DB000CD57FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17F5A8742BD09DB000CD57FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,12 +77,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170BAD8D2BD4031D00A6FFE0 /* OpenAPIURLSession in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17049A3D2BE1177E006C65F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				174AAF0A2BE3FE52003347C8 /* Member */,
+				174AAEED2BE3BE98003347C8 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		17049A462BE120D4006C65F0 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		174AAEFA2BE3E384003347C8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				174AAEEF2BE3E384003347C8 /* charleyrivers@2x.jpg */,
+				174AAEF02BE3E384003347C8 /* chilkoottrail@2x.jpg */,
+				174AAEF12BE3E384003347C8 /* chincoteague@2x.jpg */,
+				174AAEF22BE3E384003347C8 /* hiddenlake@2x.jpg */,
+				174AAEF32BE3E384003347C8 /* icybay@2x.jpg */,
+				174AAEF42BE3E384003347C8 /* lakemcdonald@2x.jpg */,
+				174AAEF52BE3E384003347C8 /* rainbowlake@2x.jpg */,
+				174AAEF62BE3E384003347C8 /* silversalmoncreek@2x.jpg */,
+				174AAEF72BE3E384003347C8 /* stmarylake@2x.jpg */,
+				174AAEF82BE3E384003347C8 /* twinlake@2x.jpg */,
+				174AAEF92BE3E384003347C8 /* umbagog@2x.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		174AAF0A2BE3FE52003347C8 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				17049A3F2BE11797006C65F0 /* MemberDetail.swift */,
+				17049A822BE1265B006C65F0 /* MemberRow.swift */,
+				174AAF062BE3E623003347C8 /* MemberList.swift */,
+				174AAF082BE3FB3D003347C8 /* CircleImageMemberList.swift */,
+				17BA63B32BE3FEFB001F4E32 /* CircleImageMemberDetail.swift */,
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+		175F3D3C2BD9B54B00F95BB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				174AAEFA2BE3E384003347C8 /* Images */,
+				175F3D3A2BD9B53B00F95BB5 /* TEAM.json */,
+				175F3D362BD9B51700F95BB5 /* MEMBER_TEAM.json */,
+				175F3D372BD9B51800F95BB5 /* member.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		175F3D3D2BD9B57D00F95BB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17049A462BE120D4006C65F0 /* Generator */,
+				17049A352BE116D0006C65F0 /* ModelData.swift */,
+				17049A7E2BE12454006C65F0 /* Member3.swift */,
+				17049A7D2BE12454006C65F0 /* Team.swift */,
+				17A6C4D22BE12A6000398342 /* Member.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17ED25412BD5969A00D844B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		17F5A8612BD09DAE00CD57FD = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +179,13 @@
 		17F5A86C2BD09DAE00CD57FD /* TeamManager_ios */ = {
 			isa = PBXGroup;
 			children = (
+				17049A432BE11CE7006C65F0 /* openapi.yaml */,
+				172525062BD4068A005150AC /* openapi-generator-config.yaml */,
+				175F3D3C2BD9B54B00F95BB5 /* Resources */,
+				17049A3D2BE1177E006C65F0 /* Views */,
+				175F3D3D2BD9B57D00F95BB5 /* Model */,
+				17ED25412BD5969A00D844B1 /* Controller */,
 				17F5A86D2BD09DAE00CD57FD /* TeamManager_iosApp.swift */,
-				17F5A86F2BD09DAE00CD57FD /* ContentView.swift */,
 				17F5A8712BD09DB000CD57FD /* Assets.xcassets */,
 				17F5A8732BD09DB000CD57FD /* Preview Content */,
 			);
@@ -83,6 +216,9 @@
 			dependencies = (
 			);
 			name = TeamManager_ios;
+			packageProductDependencies = (
+				170BAD8C2BD4031D00A6FFE0 /* OpenAPIURLSession */,
+			);
 			productName = TeamManager_ios;
 			productReference = 17F5A86A2BD09DAE00CD57FD /* TeamManager_ios.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +247,9 @@
 				Base,
 			);
 			mainGroup = 17F5A8612BD09DAE00CD57FD;
+			packageReferences = (
+				170BAD8B2BD4031D00A6FFE0 /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */,
+			);
 			productRefGroup = 17F5A86B2BD09DAE00CD57FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +264,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174AAEFB2BE3E384003347C8 /* charleyrivers@2x.jpg in Resources */,
 				17F5A8752BD09DB000CD57FD /* Preview Assets.xcassets in Resources */,
+				172525072BD4068A005150AC /* openapi-generator-config.yaml in Resources */,
+				174AAEFD2BE3E384003347C8 /* chincoteague@2x.jpg in Resources */,
+				174AAF012BE3E384003347C8 /* rainbowlake@2x.jpg in Resources */,
+				174AAF022BE3E384003347C8 /* silversalmoncreek@2x.jpg in Resources */,
+				174AAEFC2BE3E384003347C8 /* chilkoottrail@2x.jpg in Resources */,
+				174AAF032BE3E384003347C8 /* stmarylake@2x.jpg in Resources */,
+				175F3D382BD9B51800F95BB5 /* MEMBER_TEAM.json in Resources */,
 				17F5A8722BD09DB000CD57FD /* Assets.xcassets in Resources */,
+				175F3D392BD9B51800F95BB5 /* member.json in Resources */,
+				174AAF002BE3E384003347C8 /* lakemcdonald@2x.jpg in Resources */,
+				174AAEFE2BE3E384003347C8 /* hiddenlake@2x.jpg in Resources */,
+				17049A442BE11CE7006C65F0 /* openapi.yaml in Resources */,
+				174AAF042BE3E384003347C8 /* twinlake@2x.jpg in Resources */,
+				174AAF052BE3E384003347C8 /* umbagog@2x.jpg in Resources */,
+				175F3D3B2BD9B53C00F95BB5 /* TEAM.json in Resources */,
+				174AAEFF2BE3E384003347C8 /* icybay@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17F5A8702BD09DAE00CD57FD /* ContentView.swift in Sources */,
+				17049A402BE11797006C65F0 /* MemberDetail.swift in Sources */,
+				174AAF072BE3E623003347C8 /* MemberList.swift in Sources */,
+				17049A802BE12454006C65F0 /* Member3.swift in Sources */,
+				174AAEEE2BE3BE98003347C8 /* ContentView.swift in Sources */,
+				17A6C4D32BE12A6000398342 /* Member.swift in Sources */,
+				174AAF092BE3FB3D003347C8 /* CircleImageMemberList.swift in Sources */,
+				17049A7F2BE12454006C65F0 /* Team.swift in Sources */,
 				17F5A86E2BD09DAE00CD57FD /* TeamManager_iosApp.swift in Sources */,
+				17BA63B42BE3FEFB001F4E32 /* CircleImageMemberDetail.swift in Sources */,
+				17049A832BE1265B006C65F0 /* MemberRow.swift in Sources */,
+				17049A362BE116D0006C65F0 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +508,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		170BAD8B2BD4031D00A6FFE0 /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-urlsession";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		170BAD8C2BD4031D00A6FFE0 /* OpenAPIURLSession */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 170BAD8B2BD4031D00A6FFE0 /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */;
+			productName = OpenAPIURLSession;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 17F5A8622BD09DAE00CD57FD /* Project object */;
 }
